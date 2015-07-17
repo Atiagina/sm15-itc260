@@ -1,8 +1,13 @@
 <?php
 //views/news/feedback.php
+$this->load->view($this->config->item('theme') . 'header');
 ?>
 
 <h2><?php $title ?></h2>
 
 <b><?=$success;?></b>
 
+<?php
+$this->load->view($this->config->item('theme') . 'footer');
+
+?>
